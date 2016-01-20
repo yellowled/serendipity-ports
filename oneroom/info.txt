@@ -1,0 +1,4 @@
+Name: One Room
+Author: Jeremie Tisseau<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2009-05-24
+Require Serendipity: 1.1

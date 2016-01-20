@@ -1,0 +1,221 @@
+/*** Additional plugin styles needed for the modernized output code ***/
+/*** these will eventuelly kick in starting with s9y v1.4           ***/
+.plainList {
+    list-style: none !important;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#sidebar ul li ul.plainList { margin-left: 0; }
+
+#sidebar ul li ul.plainList li {
+    background-image: none;
+    padding-left: 0;
+}
+
+.container_serendipity_authors_plugin .serendipitySideBarContent div {
+    margin: 5px 0;
+    padding-left: 0;
+}
+
+.serendipity_history_author { font-weight: bolder; }
+
+.serendipity_history_intro,
+.serendipity_history_info { margin-bottom: 3px; }
+
+.serendipity_history_body { margin-bottom: 10px; }
+
+.serendipity_recententries_entrylink { margin-bottom: 2px; }
+
+.serendipity_recententries_entrydate { margin: 0 0 4px 0; }
+
+.plugin_comment_body { padding: 3px 0; }
+
+.serendipity_shoutbox_date { margin: 5px 0 2px 0; }
+
+.serendipity_shoutbox_comment { padding: 3px 0; }
+
+.container_serendipity_plugin_recententries dd { margin-left: 0; }
+
+.emoticon { border: none!important; }
+
+.serendipity_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.serendipity_msg_important { color: red; }
+.serendipity_msg_notice { color: green; }
+
+.serendipity_freeTag,
+.serendipity_freeTag_related {
+    background: url(img/icon-tag.jpg) no-repeat 0 0;
+    clear: both;
+    display: block;
+    font-size: 1em;
+    margin: 10px 0 10px 10px;
+    padding: 2px 0 2px 20px;
+    text-align: left;
+    width: 120px
+}
+
+.serendipity_freeTag a,
+.serendipity_freeTag_related a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.serendipity_freeTag a:hover,
+.serendipity_freeTag_related a:hover {
+    color: #615f58;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.freetag_cloud {
+    clear: both;
+    display: block;
+    float: right;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-style: italic;
+    padding: 10px 20px 0;
+    width: 480px;
+}
+
+.freetag_cloud h2 {
+    color: #676f51;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.serendipity_freetag_taglist_related {
+    color: #676f51;
+    font-size: 1.4em !important;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.comment_avatar {
+    background: #efefed;
+    border: 1px solid #d0d0ce;
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 3px;
+}
+
+.serendipity_commentDirection { margin: 10px 0; }
+
+#checkbox_remember,
+#checkbox_subscribe {
+    margin: 0 3px 3px 0;
+    vertical-align: middle;
+}
+
+.serendipity_image_left,
+.serendipity_image_center,
+.serendipity_image_right {
+    background: #efefed;
+    border: 1px solid #d0d0ce !important;
+    padding: 3px !important;
+}
+
+.serendipity_image_left {
+    float: left;
+    margin: 0 10px 3px 0;
+}
+
+.serendipity_image_center {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.serendipity_image_right {
+    float: right;
+    margin: 0 0 3px 10px;
+}
+
+.serendipity_image_link img { display: inline; }
+
+.serendipity_image_link .serendipity_image_center { display: block !important; }
+
+.serendipity_imageComment_right .serendipity_image_right,
+.serendipity_imageComment_left .serendipity_image_left { float: none; }
+
+.serendipity_imageComment_left {
+    float: left;
+    margin: 0 10px 5px 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center {
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+.serendipity_imageComment_right {
+    float: right;
+    margin: 0 0 5px 10px;
+    text-align: center;
+}
+
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    background-color: #efefed;
+    border: 1px solid #d0d0ce;
+    padding: 3px;
+}
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #d0d0ce;
+    clear: both;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+}
+
+div#serendipity_preview_spacer {
+    display: none !important;
+    float: none !important;
+    height: 0px !important;
+}
+
+.serendipity_entrypaging {
+    clear: right;
+    display: block;
+    float: right;
+    padding: 5px 20px;
+    width: 480px;
+}
+
+pre { white-space: pre-wrap; }
+
+.comment-form textarea { max-width: 475px; }
+
+.serendipity_content_message {
+    clear: both;
+    display: block;
+    float: right;
+    padding: 10px 20px 0;
+    width: 480px;
+}
+
+.serendipity_poll {
+    clear: right;
+    display: block;
+    float: right;
+    padding: 5px 20px 20px;
+    width:480px;
+}
