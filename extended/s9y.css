@@ -1,0 +1,181 @@
+.serendipitySideBarContent {
+    padding: 10px 15px;
+}
+
+.serendipity_entry_extended { clear: both; }
+
+.serendipity_pageFooter {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.serendipity_center {
+    margin: 5px auto 10px;
+    text-align: center;
+}
+
+.serendipity_msg_important {
+    color: red;
+    margin: 1em;
+}
+.serendipity_msg_notice {
+    color: green;
+    margin: 1em;
+}
+
+/*** s9y image manager ***/
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ddd;
+    background-color: #efefef;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center {
+    margin: auto;
+}
+
+.serendipity_imageComment_left {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.serendipity_imageComment_right {
+    float: right;
+    margin: 0 0 5px 10px;
+}
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 1%;
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+}
+
+.staticpage_results { padding: 0 30px; }
+
+.archives_row {
+    clear: left;
+    float: left;
+    font-size: .9em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 30px;
+}
+
+h3.title { clear: left; }
+
+.archives_row .archives_date,
+.archives_row .archives_count,
+.archives_row .archives_count_link,
+.archives_row .archives_link {
+    float: left;
+    margin-left: 0;
+}
+
+.archives_row .archives_date,
+.archives_row .archives_count,
+.archives_row .archives_count_link { width: 90px; }
+
+.archives_row .archives_link { width: 150px; }
+
+dd.byline { padding-left: 0!important; }
+
+#serendipity_categories_list li {
+	padding: 5px 0!important;
+	background: none!important;
+	border-bottom: none!important;
+}
+
+.serendipity_freeTag,
+.serendipity_freeTag a { font-size: 1em; }
+
+.serendipity_freetag_taglist {
+    background-color: #fff;
+    border: none;
+    margin: 0;
+    padding: 5px 30px;
+    text-align: justify;
+}
+
+.serendipity_freeTag,
+.serendipity_freeTag_related {
+    margin: 0 0 5px 0;
+    text-align: right;
+}
+
+h2.serendipity_commentsTitle,
+#serendipity_comment dl,
+#contactformpreface,
+.archivetitle {
+    margin: 0;
+    padding: 5px 30px;
+}
+
+.archivetitle { clear:both; }
+
+h2 {
+    font-size: 1.8em!important;
+    font-weight: normal!important;
+}
+
+h3 {
+    font-size: 1.5em!important;
+    font-weight: normal!important;
+}
+
+.serendipity_entrypaging,
+.firsttitle {
+    clear: both;
+    margin-top: 30px!important;
+}
+
+#serendipity_comment dl dt,
+#serendipity_comment dl dd { margin: 0 0 5px 0; }
+
+.serendipity_commentsLabel { font-weight: bold; }
+
+.serendipity_commentsValue input,
+.serendipity_commentsValue select,
+.serendipity_commentsValue textarea {
+    background: url(img/img02.gif) repeat-x;
+    border: 1px solid #ACACAC;
+}
+
+.serendipity_commentsValue input,
+.serendipity_commentsValue textarea { padding: 2px 5px; }
+
+.serendipity_commentDirection {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.serendipity_comment .entry,
+.serendipity_comment .byline {
+   margin: 0;
+   padding: 0 30px 5px;
+}
+
+.comment_oddbox,
+.comment_evenbox {
+   margin: 0 30px 15px;
+}
+
+.serendipity_commentBody { padding-bottom: 5px; }
+
+.serendipity_comment_source {
+    border-top: 1px solid #ACACAC;     
+    padding-top: 5px;
+}
