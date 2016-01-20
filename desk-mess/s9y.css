@@ -1,0 +1,135 @@
+/*** Embedded images with the s9y image manager ***/
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.serendipity_imageComment_center { margin: auto; }
+
+.serendipity_imageComment_left { float: left; }
+
+.serendipity_imageComment_right { float: right; }
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #ddd;
+    margin: 0px;
+    padding: 3px;
+    clear: both;
+    text-align: center;
+}
+
+/*** Internal messages ***/
+.serendipity_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.serendipity_msg_important { color: red; }
+.serendipity_msg_notice { color: green; }
+
+/*** Future compatibility for various plugins ***/
+.container_serendipity_archives_plugin ul,
+.container_serendipity_syndication_plugin ul,
+.container_serendipity_authors_plugin ul,
+.container_serendipity_plugin_entrylinks ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container_serendipity_authors_plugin .serendipitySideBarContent div {
+    margin: 5px 0;
+    padding-left: 0;
+}
+
+.serendipity_history_author { font-weight: bolder; }
+
+.serendipity_history_intro,
+.serendipity_history_info { margin-bottom: 3px; }
+
+.serendipity_history_body { margin-bottom: 10px; }
+
+.serendipity_recententries_entrylink { margin-bottom: 2px; }
+
+.serendipity_recententries_entrydate { margin: 0 0 4px 0; }
+
+.plugin_comment_body { padding: 3px 0; }
+
+.serendipity_shoutbox_date { margin: 5px 0 2px 0; }
+
+.serendipity_shoutbox_comment { padding: 3px 0; }
+
+
+#trb {
+    width:580px;
+    padding: 0 0 5px 0px;
+    clear: both;
+}
+
+#trbhead {
+    background:url(img/comh3.png) no-repeat;
+    margin-bottom:10px;
+    color:#271b03;
+    padding:8px 0 0 40px;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;	
+    width: 175px;	
+    height: 36px;
+}
+
+.serendipity_freeTag {
+    display: block;
+    font-size: 11px;
+    margin: 5px 10px 0 0;
+    text-align: right;
+}
+
+.serendipity_freeTag a {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.serendipity_freeTag a:hover {
+    color: #d21600;
+    text-decoration: underline;
+}
+
+.serendipity_freeTag_related {
+    display: block;
+    font-size: 11px;
+    margin: 5px 10px 0 0;
+    text-align: right;
+}
+
+.serendipity_freetag_taglist {
+    background-color: #fff;
+    border: 1px solid #d21600;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+.serendipity_freetag_taglist_related {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.nobullets { list-style: none; }
+
+.iframewrapper {
+    position: absolute!important;
+    width: 98%!important;
+}
