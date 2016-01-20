@@ -1,0 +1,99 @@
+.serendipity_center {
+    margin: 5px auto 10px;
+    text-align: center;
+}
+
+.serendipity_msg_important {
+    color: red;
+    margin: 1em;
+}
+.serendipity_msg_notice {
+    color: green;
+    margin: 1em;
+}
+
+#sidebar .boxed .content { padding: 10px; }
+
+.serendipity_Entry_Date { padding: 0 20px; }
+
+.serendipity_freeTag {
+    display: block;
+    font-size: smaller;
+    margin: 5px 0 0 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.serendipity_freeTag a { color: #333333; }
+
+.serendipity_freeTag a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.serendipity_freeTag_related {
+    display: block;
+    font-size: smaller;
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.serendipity_freetag_taglist {
+    background-color: #ffe1b3;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.serendipity_pageFooter,
+.serendipity_entrypaging,
+.serendipity_comment_source { font-size: smaller; }
+
+.serendipity_comments {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.serendipity_comment { margin: 10px 0; }
+
+/*** s9y image manager ***/
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ddd;
+    background-color: #efefef;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center {
+    margin: auto;
+}
+
+.serendipity_imageComment_left {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.serendipity_imageComment_right {
+    float: right;
+    margin: 0 0 5px 10px;
+}
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 1%;
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+}
