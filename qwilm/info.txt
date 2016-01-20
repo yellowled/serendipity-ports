@@ -1,0 +1,4 @@
+Name: Qwilm!
+Author: Oriol<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2008-03-10
+Require Serendipity: 1.1
