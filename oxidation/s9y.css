@@ -1,0 +1,109 @@
+.serendipity_center {
+    margin: 5px auto 10px;
+    text-align: center;
+}
+
+.serendipity_msg_important {
+    color: red;
+    margin: 1em;
+}
+.serendipity_msg_notice {
+    color: green;
+    margin: 1em;
+}
+
+#calendar .Today {
+    background: #B4AF8E;
+    font-weight: bold;
+    color: #FDFBED;
+}
+
+#contactpreface,
+.serendipity_search {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.serendipity_freetag_taglist {
+    background-color: transparent;
+    border: none;
+    margin: 25px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.serendipity_freeTag {
+    border-top: 2px solid #F2EAB8;
+    display: block;
+    font-size: smaller;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.serendipity_freeTag a { font-weight: normal; }
+
+.serendipity_freeTag a:hover {
+    border: none;
+    color: #FFB700;
+    text-decoration: none;
+}
+
+.serendipity_freeTag_related {
+    display: block;
+    font-size: small;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+select {
+    padding: 2px 5px;
+    background: #F9F8F1 url({TEMPLATE_PATH}img/img03.gif) repeat-x;
+    border: 1px solid #D2BA29;
+    font: bold 1em Georgia, "Times New Roman", Times, serif;
+    color: #2D2D2B;
+}
+
+/*** s9y image manager ***/
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ddd;
+    background-color: #efefef;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center {
+    margin: auto;
+}
+
+.serendipity_imageComment_left {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.serendipity_imageComment_right {
+    float: right;
+    margin: 0 0 5px 10px;
+}
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 1%;
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+}
