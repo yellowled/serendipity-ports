@@ -1,0 +1,4 @@
+Name: NotePad
+Author: InfoCreek<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2008-06-12
+Require Serendipity: 1.1

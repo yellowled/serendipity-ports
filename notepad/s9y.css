@@ -1,0 +1,58 @@
+.serendipity_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.serendipity_msg_important { color: red; }
+.serendipity_msg_notice { color: green; }
+
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    margin: 3px 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center { margin: 5px auto; }
+.serendipity_imageComment_left { float: left; }
+.serendipity_imageComment_right { float: right; }
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_freeTag,
+.serendipity_freeTag_related {
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 10px 8px;
+    text-align: left;
+}
+
+.serendipity_freeTag a {
+    color: #840000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.serendipity_freeTag a:hover {
+    color: #840000;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.serendipity_freetag_taglist {
+    background-color: #ebede9;
+    border: 1px solid #fff;
+    margin: 10px 0 0;
+    padding: 10px 1px;
+    text-align:justify;
+}
