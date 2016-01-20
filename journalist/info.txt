@@ -1,0 +1,4 @@
+Name: Journalist 1.9
+Author: Lucian E. Marin<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2008-12-04
+Require Serendipity: 1.1
