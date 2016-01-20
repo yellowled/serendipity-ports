@@ -1,0 +1,190 @@
+ .serendipity_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.serendipity_msg_important { color: red; }
+.serendipity_msg_notice { color: green; }
+
+/*** s9y image manager ***/
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #dfe3e6;
+    background-color: #efefef;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center {
+    margin: auto;
+}
+
+.serendipity_imageComment_left {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.serendipity_imageComment_right {
+    float: right;
+    margin: 0 0 5px 10px;
+}
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #dfe3e6;
+    margin: 0;
+    padding: 1%;
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+}
+
+.serendipity_freeTag {
+    display: block;
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.serendipity_freeTag a,
+.serendipity_multilingualInfo a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.serendipity_freeTag a:hover,
+.serendipity_multilingualInfo a:hover {
+    color: #535353;
+    text-decoration: underline;
+}
+
+.serendipity_freeTag_related,
+.serendipity_multilingualInfo {
+    display: block;
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.serendipity_freetag_taglist {
+    background-color: inherit;
+    border: none;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+.serendipity_freetag_taglist_related { font-weight: bold; }
+
+.serendipity_entrypaging {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.epicon { display: none; }
+
+.serendipity_entrypaging_left {
+    float: left;
+    margin: 2px 0px;
+    text-align: left;
+    width: 249px;
+}
+
+.serendipity_entrypaging_left a {
+    background: url(img/arrow-left.gif) no-repeat left;
+    padding-left: 20px;
+}
+
+.serendipity_entrypaging_right {
+    float: right;
+    margin: 2px 0px;
+    text-align: right;
+    width: 249px;
+}
+
+.serendipity_entrypaging_right a {
+    background: url(img/arrow-right.gif) no-repeat right;
+    padding-right: 20px;
+}
+
+.serendipity_archives_plugin {
+    font-size: 11px;
+    padding: 5px 0;
+}
+
+.serendipity_plugin_recententries .serendipitySideBarDate,
+.serendipity_plugin_recententries br,
+.serendipity_archives_plugin br { display: none; }
+
+.serendipity_plugin_recententries a,
+.serendipity_archives_plugin a {
+    background: url(img/bullet-arrow3.gif) no-repeat;
+    background-position: 3px 6px;
+    border-bottom: 1px dotted #959595;
+    display: block;
+    margin: 0 5px;
+    padding: 3px 0 3px 15px;
+}
+
+.serendipity_plugin_recententries a:hover,
+.serendipity_archives_plugin a:hover { text-decoration: none; }
+
+#popular h2 { margin: 0 5px; }
+
+.cfpreface,
+.serendipity_commentDirection { margin-bottom: 10px; }
+
+#serendipity_replyTo { border: 1px solid #ababab; }
+
+.serendipity_calendar {
+    background-color: #d8d7cc;
+    border-top: 1px solid #bdbcb6;
+    border-bottom: 1px solid #bdbcb6;
+    width: 100%;
+}
+
+/* 1.4 fixes */
+.serendipity_syndication_plugin ul,
+.serendipity_authors_plugin ul {
+    float: left;
+    width: 160px;
+}
+
+.serendipity_syndication_plugin ul li,
+.serendipity_authors_plugin ul li {
+    clear: left;
+    float: left;
+    width: 150px;
+}
+
+.serendipity_syndication_plugin a,
+.serendipity_authors_plugin a { float: left; }
+
+.serendipity_syndication_plugin ul:after,
+.serendipity_authors_plugin ul:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+.serendipity_syndication_plugin ul,
+.serendipity_authors_plugin ul {
+  display: inline-block; /* Fixes IE/Mac */
+}
+
+/* Hides from IE-mac \*/
+* html .serendipity_syndication_plugin ul,
+* html .serendipity_authors_plugin ul {height: 1%;}
+.serendipity_syndication_plugin ul,
+.serendipity_authors_plugin ul {display: block;}
+/* End hide from IE-mac */		

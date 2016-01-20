@@ -1,0 +1,4 @@
+Name: WP_Premium 1.0
+Author: R. Bhavesh<br /><i>Ported to s9y by Matthias 'YellowLed' Mees. Additional contributions by Christian 'lordcoffee' Hoffmann and Judebert.</i>
+Date: 2008-06-16
+Require Serendipity: 1.1
