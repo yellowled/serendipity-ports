@@ -1,0 +1,874 @@
+/*  
+Theme Name: BASE
+Theme URI: http://www.fresh01.co.za/free-themes/
+Description: Base is a WordPress theme for easy development. It has all the basic WordPress blog features, plus a few extras. See <a href="http://fresh01.co.za/basic-theme-features">the full list of features</a> on my <a href="http://fresh01.co.za/">website</a>.
+Version: 1.0
+Author: Cobus Bester
+Author URI: http://www.fresh01.co.za/
+*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SETUP AND RESET <<<<<*/
+
+body, html  {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body  {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 13px;
+	line-height: 1.8;  /*unitless for proper inheritance*/
+	background-color: #fff;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6  {
+	margin: 5px 0;
+	background-color: #fff;
+	color: #000;
+	font-weight: normal;
+}
+
+h1 a:link, h1 a:visited,
+h2 a:link, h2 a:visited,
+h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited,
+h5 a:link, h5 a:visited,
+h6 a:link, h6 a:visited  {
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover  {
+	text-decoration: underline;
+}
+
+h1  {font-size: 36pt}
+h2  {font-size: 22pt}
+h3  {font-size: 16pt}
+h4  {font-size: 12pt}
+h5  {font-size: 10pt}
+h6  {font-size: 8pt}
+
+p  {
+	margin: 16px 0 16px 0;
+}
+
+ul, ol  {
+	margin: 0;
+	padding: 0;
+}
+
+img  {
+	border: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAVIGATION <<<<<*/
+
+a:link, a:visited  {
+	color: #000;
+}
+
+a:hover  {
+	color: #666;
+}
+
+#nav  {
+	padding: 5px 0 0 0;
+	border-bottom: 2px solid #9e9e9e;
+	height: 35px;
+}
+
+#nav ul  {
+	padding: 0 0 0 10px;
+}
+
+#nav ul li  {
+	position: relative;
+	display: inline;
+	margin: 0 25px 0 0;
+	line-height: 30px;
+}
+
+#nav ul li ul  {
+	position: absolute;
+	width: 150px;
+	background-color: #ededed;
+	font-size: 12px;
+	top: 30px;
+	left: -10px;
+	display: none;
+}
+
+#nav a:link, #nav a:visited  {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #9e9e9e;
+}
+
+#nav a:hover  {
+	color: #000;
+}
+
+#nav .current_page_item a:link, #nav .current_page_item a:visited  {
+	color: #000;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> LAYOUT <<<<<*/
+
+.fullcolumn  {
+	width: 940px;
+	margin: 0 10px;
+}
+
+#header  {
+	height: 100px;
+	padding: 20px 0;
+	border-bottom: 1px solid #ededed;
+}
+
+#header h1  {
+	margin: 0 0 -20px 0;
+	text-transform: uppercase;
+}
+
+#header h1 a:link, #header h1 a:visited  {
+	text-decoration: none;
+}
+
+#header p  {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#main  {
+}
+
+#content  {
+}
+
+#sidebar  {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 13px;
+}
+
+#subscribe  {
+	border-bottom: 1px solid #ededed;
+	margin: 10px 0 20px 0;
+}
+
+#subscribe h2  {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#subscribe .posts  {
+	display: block;
+	margin-bottom: -15px;
+	background: url({TEMPLATE_PATH}img/icons/rss.gif) no-repeat 2% center;
+	padding: 6px 0 6px 35px;
+	text-decoration: none;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-color: #f1f1f1;
+}
+
+#subscribe .comments  {
+	display: block;
+	background: url({TEMPLATE_PATH}img/icons/rss_comments.gif) no-repeat 2% center;
+	padding: 6px 0 6px 35px;
+	text-decoration: none;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-color: #f1f1f1;
+}
+
+#search  {
+	margin: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ededed;
+}
+
+#search h2  {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#searchform #s  {
+	width: 83%;
+	height: 20px;
+	margin-right: 5px;
+	background-color: #fff;
+	border: 1px solid #9e9e9e;
+	padding: 5px 0 0 5px;
+}
+
+#searchform .submit  {
+	margin-bottom: -7px;
+}
+
+#footer  {
+	padding: 10px;
+	width: 920px;
+	color: #9e9e9e;
+	background-color: #ededed;
+}
+
+#footer p  {
+	margin: 0;
+}
+
+#footer a:link, #footer a:visited  {
+	color: #9e9e9e;
+}
+
+#footer a:hover  {
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> POST AND ENTRY <<<<<*/
+
+h3.cathead  {
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 10px 10px 0;
+	border-bottom: 1px solid #ededed;
+}
+
+.post  {
+	border-bottom: 1px solid #ededed;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.post .title  {
+	margin: 0 0 0 0;
+	line-height: 33px;
+}
+
+.post .title a:link, .post .title a:visited  {
+	text-decoration: none;
+}
+
+.post .title a:hover  {
+	
+}
+
+.post a:link, .post a:visited  {
+	
+}
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6  {
+}
+
+.post p.meta  {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	color: #9e9e9e;
+	margin-bottom: 30px;
+}
+
+.post p.meta a:link, .post p.meta a:visited  {
+	color: #9e9e9e;
+}
+
+.post p.meta .author  {
+
+}
+
+.post p.meta .gravatar  {
+
+}
+
+.post p.meta .date  {
+
+}
+
+.post p.meta .category  {
+
+}
+
+.post p.meta .comments  {
+
+}
+
+.post p.tags  {
+	color: #9e9e9e;
+}
+
+.post p.tags a  {
+	color: #9e9e9e;
+}
+
+.post p.more  {
+	color: #9e9e9e;
+}
+
+.post p.more a  {
+	color: #9e9e9e;
+	text-decoration: none;
+}
+
+.entry  {
+
+}
+
+.entry p  {
+	margin: 25px 0;
+}
+
+.entry .pagelinks  {
+
+}
+
+.entry .pagelinks a  {
+	
+}
+
+.entry blockquote  {
+	color: #666;
+}
+
+.entry blockquote p  {
+	margin: 0;
+}
+
+.entry blockquote.pullquote_left  {
+	float: left;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, Times, Serif;
+}
+
+.entry blockquote.pullquote_right  {
+	float: right;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, Times, Serif;
+}
+
+.entry ul  {
+	padding: 0 0 0 30px;
+}
+
+.entry ol  {
+	padding: 0 0 0 30px;
+}
+
+.entry  ol li ol li  {
+	list-style-type: lower-latin;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CUSTOM PARAGRAPH STYLES <<<<<*/
+
+.entry .download  {
+	padding: 10px 0 10px 50px;
+	background: #ededed url({TEMPLATE_PATH}img/icons/download.gif) no-repeat 2% center;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.entry .info  {
+	padding: 10px 0 10px 50px;
+	background: #e3e3e3 url({TEMPLATE_PATH}img/icons/info.gif) no-repeat 2% center;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+}
+
+.entry .update  {
+	padding: 10px 0 10px 50px;
+	background: #dadada url({TEMPLATE_PATH}img/icons/update.gif) no-repeat 2% center;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+
+.entry .warning  {
+	padding: 10px 0 10px 50px;
+	background: #cecece url({TEMPLATE_PATH}img/icons/warning.gif) no-repeat 2% center;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> POST AND IMAGE NAVIGATION <<<<<*/
+
+#navigation  {
+
+}
+
+#navigation .prev a:link, #navigation .prev a:visited  {
+	text-decoration: none;
+}
+
+#navigation .prev a:hover  {
+
+}
+
+#navigation .next a:link, #navigation .next a:visited  {
+	text-decoration: none;
+}
+
+#navigation .next a:hover  {
+
+}
+
+#paginate a:link, #paginate a:visited  {
+	padding: 2px 7px;
+	background-color: #ededed;
+	border: 1px solid #9e9e9e;
+	text-decoration: none;
+}
+
+#image_nav  {
+	float: left;
+	width: 100%;
+}
+
+#image_nav img  {
+}
+
+#image_nav a:link, #image_nav a:visited  {
+	display: block;
+}
+
+#image_nav .prev a:link, #image_nav .prev a:visited  {
+	background: url({TEMPLATE_PATH}img/icons/image_prev.gif) no-repeat left center;
+	padding: 0 0 0 30px;
+}
+
+#image_nav .next a:link, #image_nav .next a:visited  {
+	background: url({TEMPLATE_PATH}img/icons/image_next.gif) no-repeat right center;
+	padding: 0 30px 0 0;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> GALLERY <<<<<*/
+
+.gallery  {
+
+}
+
+.gallery-item  {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.gallery-icon  {
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WIDGETS <<<<<*/
+
+.widget  {
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ededed;
+}
+
+.widget ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget h2  {
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.widget h2 a:link, .widget h2 a:visited  {
+	text-decoration: none;
+}
+
+.widget ul li {
+	margin: 7px 0;
+	list-style: none;
+}
+
+.widget ul li ul li {
+	margin: 5px 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+}
+
+.widget a:link, .widget a:visited  {
+	text-decoration: none;
+}
+
+.widget a:hover  {
+	
+}
+
+.widget .textwidget  {
+	margin: 10px 0 0 0;
+	padding: 0 0 10px 0;
+}
+
+.widget #recentcomments li  {
+	padding: 0;
+}
+
+.widget #recentcomments li a:link, .widget #recentcomments li a:visited {
+	border-bottom: none;
+	color: #000;
+}
+
+.widget #recentcomments li a:hover  {
+}
+
+.widget h2 a.rsswidget  {
+	font-weight: normal!important;
+	margin-left: 0;
+}
+
+.widget h2 a.rsswidget img  {
+	display: none;
+}
+
+.widget a.rsswidget   {
+	background-color: #fff;
+}
+
+.widget .rss-date  {
+	display: block;
+}
+
+.widget div.rssSummary  {
+	margin: 10px 0 5px 0;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CALENDAR <<<<<*/
+
+#wp-calendar  {
+	width: 100%;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+
+#wp-calendar caption  {
+	padding: 7px 0;
+	border-top: 1px solid #ededed;
+	font-weight: bold;
+	border-bottom: 1px dashed #dcdcdc;
+}
+
+#wp-calendar a:link, #wp-calendar a:visited  {
+	text-decoration: none;
+	background-color: #dcdcdc;
+	padding: 3px 5px;
+}
+
+#wp-calendar #next  {
+	text-align: right;
+}
+
+#wp-calendar #prev  {
+	text-align: left;
+}
+
+#wp-calendar #next a:link, #wp-calendar #next a:visited,
+#wp-calendar #prev a:link, #wp-calendar #prev a:visited  {
+	background: none;
+	font-weight: bold;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DEMOCRACY PLUGIN STYLING <<<<<*/
+
+.democracy  {
+	width: 100%!important;
+	padding: 5px 20px 40px 5px!important;
+	margin: 0!important;
+	border: 1px solid #ededed;
+}
+
+.dem-vote-button  {
+	float: left;
+}
+
+.democracy ul  {
+	padding: 0;
+	margin: 0!important;
+}
+
+.democracy ul li  {
+	margin: 0 0 5px 0;
+	padding-left: 0!important;
+	text-transform: uppercase;
+	font-size: 11px;
+	list-style: none;
+}
+
+.democracy ul li a  {
+	background-image: none!important;
+}
+
+.dem-graph  {
+	width: 100%;
+}
+
+.dem-graph a  {
+	width: 100%;
+	padding: 0!important;
+	border-bottom-color: #999!important;
+	border-right-color: #999!important;
+}
+
+.dem-graph b  {
+	color: #000!important;
+	font-size: 10px;
+}
+
+.dem-graph i  {
+	color: #000!important;
+	font-size: 10px;
+}
+
+.democracy ul li input  {
+	margin: 0 2px 0 5px!important;
+}
+
+.dem-vote-link  {
+	float: right;
+	display: block;
+	margin-top: 8px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FLICKRRSS WIDGET <<<<<*/
+
+p.flickrrss  {
+	display: inline;
+}
+
+p.flickrrss img  {
+	padding: 5px;
+}
+
+p.flickrrss img:hover  {
+	background-color: #ededed;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WP-PAGENAVI PLUGIN <<<<<*/
+
+.wp-pagenavi  {
+	margin: 10px 0;
+}
+
+.wp-pagenavi .pages  {
+	border: none!important;
+}
+
+.wp-pagenavi .current  {
+	border: none!important;
+	color: #f1f1f1!important;
+	background-color: #333!important;
+}
+
+.wp-pagenavi a  {
+	border: none!important;
+	color: #000!important;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> THEME SWITCHER RELOADED WIDGET <<<<<*/
+
+#themeswitcher  {
+	padding: 10px;
+	background-color: #ededed;
+}
+
+#themswitcher li  {
+	margin: 0;
+}
+
+#themeswitcher select  {
+	width: 99%!important;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> COMMENTS <<<<<*/
+
+#comments  {
+	padding: 10px 0 0 0;
+	border-bottom: 1px solid #ededed;
+}
+
+#comments h3  {
+	margin: 15px 0;
+}
+
+#formsblock  {
+	padding: 0 0 20px 0;
+}
+
+#formsblock .hi  {
+	margin: 0 0 -10px 0;
+}
+
+#formsblock .hi small  {
+	font-size: 11px;
+	margin-top: -16px;
+}
+
+#formsblock .comments   {
+	background: url({TEMPLATE_PATH}img/icons/rss_comments.gif) no-repeat center right;
+	padding: 6px 30px 6px 0;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+#comments ol  {
+	margin: 5px 0 30px 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #ccc;
+}
+
+#comments ol li  {
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+
+#comments ol li.alt  {
+	background-color: #ededed;
+}
+
+#comments ol li.authorcomment  {
+	background-color: #ddd;
+}
+
+.commententry p.moderate  {
+	background-color: #eee;
+	font-style: italic;
+	font-weight: bold;
+	padding: 4px 0 4px 10px;
+}
+
+.commentmeta  {
+	font-size: 11px;
+	
+}
+
+.commentmeta .gravatar  {
+}
+
+.commentmeta .gravatar img  {
+	float: left;
+	margin: 0 10px 0 0;
+	border: 1px solid #ededed;
+}
+
+.commentmeta .commentauthor  {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.commentmeta .commentdate  {
+
+}
+
+.commentmeta .commentpermalink  {
+
+}
+
+#comments #tagbox  {
+	color: #9e9e9e;
+	margin: 0 0 25px 0;
+}
+
+#comments #tagbox:hover  {
+	color: #000;
+}
+
+#comments #tagbox p  {
+	margin: 0;
+	font-size: 12px;
+}
+
+#comments #tagbox strong  {
+	font-size: 12px;
+}
+
+#comments p.nocomments{
+	padding: 0;
+}
+
+#comments textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	width: 100%;
+	margin: 0;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+#commentform #submit  {
+	border: 1px solid #9e9e9e;
+	background-color: #ededed;
+	padding: 5px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> POST IMAGE ALIGNMENT <<<<<*/
+
+.entry img  {
+	padding: 5px;
+	border: 1px solid #333;
+}
+
+.entry .alignleft  {
+	float: left;
+	margin: 10px 15px 10px 0;
+}
+
+.entry .alignright  {
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+
+.entry .aligncenter  {
+	text-align: center;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> POST TABLES <<<<<*/
+
+.post table  {
+	width: 100%;
+	border-left: 1px solid #d2d2d2;
+	border-top: 1px solid #d2d2d2;
+	border-spacing: 0;
+	margin: 10px 0;
+}
+
+*:first-child+html .post table  {
+	border-collapse: collapse;
+}
+
+.post table th  {
+	font-size: 15px;
+	background-color: #111;
+	color: #ededed;
+}
+
+.post table th, .post table td  {
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 3px 0 3px 5px;
+}
+
+.post .altrow  {
+	background-color: #eee;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FLOAT & ALIGN <<<<<*/
+
+.floatl  {float: left;}
+.floatr  {float: right;}
+
+.alignl  {text-align: left;}
+.alignr  {text-align: right;}
+.alignc  {text-align: center;}
+
+.hide  {display: none;}

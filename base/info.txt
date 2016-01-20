@@ -1,0 +1,4 @@
+Name: Base
+Author: FRESH01<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2009-02-08
+Require Serendipity: 1.1
