@@ -1,0 +1,117 @@
+.serendipity_xml_icon {
+    background: url('img/SynIco.png') center center no-repeat;
+    padding: 10px 0;
+    margin: 0;
+    visibility: visible;
+}
+
+ .serendipity_xml_icon img {
+    visibility: hidden;
+}
+
+.serendipity_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.serendipity_msg_important { color: red; }
+.serendipity_msg_notice { color: green; }
+
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    border: 1px solid #ddd;
+    background-color: #efefef;
+    margin: 3px 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_center { margin: auto; }
+.serendipity_imageComment_left { float: left; }
+.serendipity_imageComment_right { float: right; }
+
+.serendipity_imageComment_img,
+.serendipity_imageComment_img img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.serendipity_imageComment_txt {
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 3px;
+    clear: both;
+    text-align: center;
+}
+
+.Syn {
+    position: absolute;
+    left: 464px;
+    top: 12px;
+}
+
+.sbcontent { font-size: 11px; }
+
+.serendipity_freeTag,
+.serendipity_freeTag_related {
+    display: block;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    text-align: left;
+}
+
+.serendipity_freeTag a,
+.serendipity_freeTag_related a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.serendipity_freeTag a:hover,
+.serendipity_freeTag_related a:hover {
+    color: #09c;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.serendipity_freetag_taglist {
+    background-color: #fff;
+    border: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.serendipity_freetag_taglist_related {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 1px 0px;
+    text-transform: lowercase;
+}
+
+.serendipity_entrypaging { margin-bottom: 10px; }
+
+#serendipity_replyTo,
+.input_textbox {
+    background: #fff;
+    border: solid 2px #e2a3a3;
+    display: block;
+    font-size: 12px;
+    padding: 6px;
+    width: 400px;
+}
+
+.serendipity_commentDirection,
+.checkbox { margin-bottom: 10px!important; }
+
+img.captcha { margin: 10px 0!important; }
+
+.PostCom { clear: both; }
+
+.PostContent p { margin: 3px 0; }

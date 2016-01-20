@@ -1,0 +1,289 @@
+/*  
+Theme Name: Gossip City
+Theme URI: http://wp-themes.designdisease.com/
+Description: Designed by <a href="http://www.designdisease.com">Elena G.</a> for  <a href="http://www.celebrific.com">Celebrific</a>
+Version: 2
+Author: Design Disease
+Author URI: http://wp-themes.designdisease.com/
+*/
+
+
+body { background: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px; color:#35383d;}
+
+html { padding: 0; margin: 0;}
+
+a:link { text-decoration: none; color : #ff3399; border: 0px; -moz-outline-style: none;}
+a:active { text-decoration: underline; color : #ff3399; border: 0px; -moz-outline-style: none;}
+a:visited { text-decoration: none; color : #ff3399; border: 0px; -moz-outline-style: none;}
+a:hover	{ text-decoration: underline; color : #0099cc; border: 0px; -moz-outline-style: none;} 
+a:focus { outline: none;-moz-outline-style: none;}
+
+h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif;}
+
+img { padding: 0px; margin: 0px; border: none; text-align: center;}
+hr { border-left:0px solid #abb0b5; border-right:0px solid #abb0b5; border-top:1px dotted #abb0b5; border-bottom:0px solid #abb0b5; height : 1px;  }
+
+form { padding: 0px; margin: 0px;}
+input { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+textarea { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+select { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+
+/* Header +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.HBG { background: url({TEMPLATE_PATH}img/HeaderBkg.gif) repeat-x center top; width: 100%; float: left;}
+
+/**/ * html .Header { height: 140px;} /* */ 
+.Header { background: url({TEMPLATE_PATH}img/Stars.gif) no-repeat top right; width: 900px; margin: 0 auto; position:relative; min-height: 140px;}
+
+
+.Header .LogoImg { position: absolute; top: 56px; left: 0px;}
+.Header .LogoImg h1 { text-indent: -35000px; margin: 0; padding: 0;}
+.Header .LogoImg h1 a { display: block; background: url(logo.png) no-repeat left top; height: 84px; width: 396px; cursor: hand; }
+
+.Header .LogoText h1 { font-size: 42px; line-height: 42px; letter-spacing: -2px; padding: 0px 0px 0px 35px; margin: 0px; font-weight: bold; font-family: 'Arial'; background: url({TEMPLATE_PATH}img/LogoIcon.png) no-repeat left top; position: absolute; top: 70px;}
+.Header .LogoText a { color:#000066; text-decoration: none; }
+.Header .LogoText a:visited { color:#000066; text-decoration: none; }
+.Header .LogoText a:hover { color:#000066; text-decoration: none; }
+
+.Header .Desc { position: absolute; top: 20px; color:#fff; font-size: 14px; line-height: 14px; font-weight: bold; letter-spacing: -1px; font-family: 'Arial'; padding: 0px; margin: 0px; }
+
+
+
+.SUBH { background: #f3e4eb url({TEMPLATE_PATH}img/MRight.gif) no-repeat right top; margin: 0 auto; width: 900px; padding: 0px; position: relative; height: 41px}
+
+/* Menu +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Menu { background: #f3e4eb url({TEMPLATE_PATH}img/MLeft.gif) no-repeat left top; width: 880px; padding: 0px; height: 41px}
+.Menu em { display: none}
+.Menu ul { list-style: none; margin: 0px; padding: 12px 0px 0px 15px;}
+.Menu ul li { padding: 0px 5px 0px 5px; margin: 0px; display: inline; font-size: 11px; border-right: solid 1px #b092a2; }
+.Menu ul li a { color:#660033;}
+.Menu ul li ul { display: none;}
+
+
+/* Syndicate +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Syn { position:absolute; left: 484px; top: 12px; }
+.Syn ul { margin: 0px; padding: 0px;}
+.Syn li { background: url({TEMPLATE_PATH}img/SynIco.png) no-repeat left center; margin: 0px 5px 0px 0px; padding: 3px 0px 3px 15px; list-style-type: none; font-size: 10px; color:#cc0066; display: inline; font-weight: bold;}
+.Syn li a {}
+
+/* Search ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Search { background: url({TEMPLATE_PATH}img/Search.gif) no-repeat left top; position: absolute; top: 10px; right: 0px; width: 195px; padding: 0px 0px 0px 0px; height: 34px; }
+.Search form { padding: 2px 0px 0px 0px; margin: 0px;}
+.Search input { border: none; color: #330033; font-size: 11px;}
+
+.Search  input.keyword { background: none; border: none; padding: 2px 0px 2px 8px; width: 165px; border: none; color:#fff; } 
+.Search  input.search { width: 19px; height: 18px; background: url(./{TEMPLATE_PATH}img/SearchButton.gif) no-repeat;}
+
+.Search .bt { padding: 0px; margin: 0px 0px 0px 165px; top: 2px; background: none; position: absolute; right: 11px; }
+
+
+/* Container +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.CONBG { width: 100%; float: left; }
+.CON { width: 900px; position: relative; margin: 0 auto; padding: 0px; margin-top: 25px;}
+
+/* Side Central Single +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SCS { width: 455px; float: left; padding: 0px 0px 20px 0px;}
+.SCS h1 { font-size: 26px; font-weight: normal; letter-spacing: -1px; border-bottom: solid 1px #d0c1c1; padding-bottom: 15px; padding-top: 0px; margin-top: 0px; color:#000066;}
+.SCS h2 { font-size: 18px; font-weight: normal; }
+.SCS h3 { font-size: 14px; font-weight: bold; }
+
+.SCS { padding: 0px; font-size: 11px; line-height: 1.4em ; color:#63565f;}
+.SCS p { font-size: 11px; line-height: 1.4em; color:#63565f;}
+.SCS p strong {}
+.SCS img {}
+.SCS ul { padding: 10px 0px; margin: 0px; }
+.SCS li { padding: 3px 0px 3px 15px; list-style-type: none; background: url({TEMPLATE_PATH}img/PostContentLiIco.png) no-repeat left top; font-size: 12px; line-height: 16px; color:#63565f; }
+.SCS blockquote { padding: 5px 25px; margin: 0px; color:#993366; font-family: 'Georgia'; font-style: italic; border-top: dashed 1px #cc99cc; border-bottom: dashed 1px #cc99cc; }
+.SCS blockquote p { font-size: 13px; padding: 5px 0px; margin: 5px 0px; line-height: 18px; color:#993366; }
+.SCS blockquote li { padding: 3px 0px 3px 15px; list-style-type: none; background: url({TEMPLATE_PATH}img/PostContentBlockLiIco.png) no-repeat left top; font-size: 13px; line-height: 18px; color:#993366; }
+
+/* Side Central +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SC { width: 455px; float: left; padding: 0px 0px 20px 0px;}
+.SC h2 { font-weight: normal;}
+.pagetitle { font-size: 26px; font-weight: normal; letter-spacing: -1px; border-bottom: solid 1px #d0c1c1; padding-bottom: 15px; padding-top: 0px; margin-top: 0px; color:#000066;}
+
+/* Post +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Post {	padding: 15px 0px; position: relative; clear: left;}
+
+.PostHead h1 { font-size: 24px; line-height: 24px; letter-spacing: -1px; font-weight: bold; padding: 0px 0px 1px 0px; margin: 0px; color:#000066;}
+.PostHead h1 a { color: #cc3366; text-decoration: none;}
+.PostHead h1 a:visited { color: #cc3366; text-decoration: none;}
+.PostHead h1 a:hover { color:#ff0066; text-decoration: none;}
+
+.PostTime { padding: 1px 0px; margin: 0px; font-size: 14px; color:#999; font-weight: bold; font-family: 'Arial'; position: absolute; letter-spacing: -1px; top: 0px; text-transform: lowercase;}
+
+.PostDet { padding: 1px 0px; margin: 0px; font-size: 10px; color:#cc9966; font-weight: bold;}
+.PostDet a { color:#cc9966; text-decoration: underline;}
+.PostDet a:visited { color:#cc9966; text-decoration: underline;}
+.PostDet a:hover { color:#cc9966; text-decoration: underline;}
+
+.PostContent { padding: 10px 0px 0px 0px; font-size: 11px; line-height: 1.4em ; color:#63565f;}
+.PostContent p { font-size: 11px; line-height: 1.4em; color:#63565f;}
+.PostContent p strong {}
+.PostContent img {}
+.PostContent ol { padding: 10px 0px 10px 25px; margin: 0px; }
+.PostContent ol li { padding: 2px 0px 2px 0px; font-size: 11px; line-height: 15px; color:#63565f; }
+.PostContent ul { padding: 10px 0px; margin: 0px; }
+.PostContent ul li { padding: 2px 0px 2px 15px; list-style-type: none; background: url({TEMPLATE_PATH}img/PostContentLiIco.png) no-repeat left top; font-size: 11px; line-height: 15px; color:#63565f; }
+.PostContent blockquote { padding: 5px 0px; margin: 0px; color:#993366; font-style: italic; border-top: dashed 1px #cc99cc; border-bottom: dashed 1px #cc99cc; }
+.PostContent blockquote p { font-size: 11px; padding: 3px 0px; margin: 3px 0px; line-height: 15px; color:#993366; }
+.PostContent blockquote li { padding: 2px 0px 2px 15px; list-style-type: none; background: url({TEMPLATE_PATH}img/PostContentBlockLiIco.png) no-repeat left top; font-size: 11px; line-height: 15px; color:#993366; }
+.PostContent a { text-decoration: underline;}
+
+.PostCom { padding-top: 15px;}
+.PostCom ul { padding: 0px; margin: 0px;}
+.PostCom li { padding: 5px 0px 5px 24px; margin: 0px; list-style-type: none; display: inline; color:#336699; font-size: 12px; background: url({TEMPLATE_PATH}img/PostCom.png) no-repeat left center; } 
+.PostCom li a { text-decoration: underline; } 
+
+
+/* Note ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.Note { padding: 0px; margin: 0px;}
+.Note li { padding: 3px 0px 3px 15px; margin: 0px; list-style-type: none; font-size: 12px;}
+.NoteRss { background: url({TEMPLATE_PATH}img/NoteRss.png) no-repeat left top;}
+.NoteTrackBack { background: url({TEMPLATE_PATH}img/NoteTrackBack.png) no-repeat left top;}
+
+/* TrackbackList ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.TrackList { background: #f4ebef url({TEMPLATE_PATH}img/TrackListBottom.gif) no-repeat bottom; padding: 15px; margin-top: 20px; position:relative;}
+.TrackListTop { background: #f4ebef url({TEMPLATE_PATH}img/TrackListTop.gif) no-repeat top; position: absolute; top: 0px; left: 0px; width: 455px; height:10px; }
+.TrackList h3 { font-size: 14px; font-weight: bold; margin: 0px 0px 5px 0px; padding: 0px 0px 5px 0px; color:#333366; letter-spacing: -1px; border-bottom: dashed 1px #beb4c1;}
+.TrackList ul { padding: 0px; margin: 0px;}
+.TrackList li { padding: 0px 0px 0px 10px; margin: 0px; list-style-type: none; font-size: 11px; background:url({TEMPLATE_PATH}img/TrackListIco.gif) no-repeat left top;}
+.TrackList li a { color:#cc3366; }
+
+/* Navigation - PlugIn +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.NavEnd { background: url({TEMPLATE_PATH}img/NavEnd.gif) no-repeat left top; width: 15px; height: 33px; position: absolute; top: 0px; margin: 0px; right: 0px;}
+/**/ *html .NavEnd  { top: 1px;} /**/ 
+
+.Nav { font-size: 11px; background: #cde7f7 url({TEMPLATE_PATH}img/NavLeft.gif) no-repeat left top; padding: 10px; color:#003366; position: relative;}
+.Nav a { padding: 1px 6px 1px 4px; border-right: solid 1px #91bdd8; font-size: 11px;}
+.Nav a:visited { padding: 1px 6px 1px 4px; border-right: solid 1px #91bdd8;}
+.Nav a:hover { padding: 1px 6px 1px 4px; border-right: solid 1px #91bdd8; text-decoration: none;}
+.Nav span { padding: 1px 6px 1px 4px; color:#6666; border-right: solid 1px #91bdd8; }
+.Nav .on { padding: 1px 6px 1px 4px; border-right: solid 1px #91bdd8; font-size: 11px; color:#003366;}
+
+/* Comments ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Comments { margin: 20px 0px 0px 0px;}
+.Comments h3 { font-size: 16px; font-weight: bold; margin: 0px 0px 5px 0px; padding: 5px 0px; color:#999; letter-spacing: -1px; border-bottom: dashed 1px #999;}
+
+/* Comments List  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.List h3 { font-size: 16px; font-weight: bold; margin: 0px 0px 5px 0px; padding: 5px 0px; color:#999; letter-spacing: -1px; border-bottom: dashed 1px #999;}
+.List ol { padding: 0px; margin: 0px;}
+.List li { position: relative; padding: 65px 5px 10px 5px; margin: 0px 0px 10px 0px; list-style-type: none;}
+.List .ComListLi { background: #fff4c3 url({TEMPLATE_PATH}img/ComListLiBottom.gif) no-repeat left bottom; }
+/**/ * html .List .ComListLiTop { left: -5px;} /**/ 
+.List .ComListLiTop { position: absolute; background: url({TEMPLATE_PATH}img/ComListLiTop.gif) no-repeat left top; height: 73px; width: 455px; left: 0px; top: 0px; padding: 35px 0px 0px 0px;}
+
+/**/ * html .List .ListNr { right: 25px;} /**/ 
+.List .ListNr { color:#dfd08f; position: absolute; top: 35px; font-size: 28px; line-height: 28px; font-family: 'Arial'; font-weight: normal; letter-spacing: -1px; padding: 0px; right: 25px; }
+
+/**/ * html .List .ListGrav { left: 10px;} /* */ 
+.List .ListGrav { position: absolute; top: 35px; left: 15px;}
+.List .ListGrav img { border: solid 1px #fff;}
+
+.List big { margin: 0px; padding: 2px 0px 2px 55px; font-size: 14px; line-height: 14px; letter-spacing: -1px; color:#996633; font-weight: bold; display: block; font-family: 'Arial';}
+.List small { color:#996633; padding: 2px 0px 2px 55px; margin: 0px; font-size: 11px; }
+.List small a { color:#996633; text-decoration: none;}
+.List small a:visited { text-decoration: none;}
+
+.List .ListContent { margin: 15px 0px 0px 0px; padding: 5px 10px; font-size: 11px; line-height: 15px; background: #fff url({TEMPLATE_PATH}img/ComListContent.gif) no-repeat left top; display: block;}
+.List .ListContent blockquote { padding: 0px 15px; margin: 0px; color:#cc6600; font-family: 'Georgia'; font-style: italic; border-top: dashed 1px #cc6600; border-bottom: dashed 1px #cc6600; }
+.List .ListContent blockquote p { font-size: 12px; padding: 5px 0px; margin: 5px 0px; line-height: 16px; color:#cc6600; }
+.List .ListContent ul { padding: 0px; margin: 0px; }
+.List .ListContent ul li { padding: 0px; list-style-type: none; background: none; font-size: 11px; line-height: 13px; color:#63565f; }
+
+/* Comments Form ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Comments .Form { background: #f9c6c6 url({TEMPLATE_PATH}img/ComFormBottom.gif) no-repeat left bottom; padding: 10px 15px 15px 15px; position: relative;}
+/**/ *html .Comments .FormTop  { left: -15px;} /**/ 
+.Comments .FormTop { background: url({TEMPLATE_PATH}img/ComFormTop.gif) no-repeat left top; position: absolute; top: 0px; left: 0px; width: 504px; height: 7px;}
+.Comments .Form form {margin: 0px; padding: 0px;}
+.Comments .Form a { text-decoration: underline;}
+.Comments .Form p { padding: 0px 0px 2px 0px; margin: 0px; color:#330000; }
+.Comments .Form p small strong { font-size: 10px; font-weight: bold; color:#FF3300;}
+.Comments .Form p small { font-size: 13px; display: block; padding: 5px 0px;}
+.Comments .Form .TextField { background: #fff; border: solid 2px #e2a3a3; padding: 6px; font-size: 12px; display: block;}
+.Comments .Form .TextArea { background: #fff; border: solid 2px #e2a3a3; padding: 6px; font-size: 12px;}
+
+.Comments .Form input.SubmitComment { width: 204px; height: 26px; background: url({TEMPLATE_PATH}img/SubmitComment.png) no-repeat; margin-top: 8px;}
+.Comments .Form input.SubmitComment:hover { background: url({TEMPLATE_PATH}img/SubmitComment.png) no-repeat 0 -26px; margin-top: 8px;}
+.Comments .Form input.SubmitCommentIE { width: 204px; height: 26px; background: url({TEMPLATE_PATH}img/SubmitComment.png) no-repeat 0 -26px; margin-top: 10px; margin-top: 8px;}
+
+
+/* Side Right +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SR { width: 415px; float: right; position: relative; padding: 0px 0px 20px 0px; }
+.SR h2 { font-size: 14px; letter-spacing: -1px; font-weight: bold; background: url({TEMPLATE_PATH}img/SRH3.png) repeat-x left bottom; color:#666; padding: 5px 0px 5px 0px; margin: 0px; border-bottom: dashed 1px #efe4e4; }
+.SR h3 { font-size: 14px; letter-spacing: -1px; font-weight: bold; background: url({TEMPLATE_PATH}img/SRH3.png) no-repeat left center; color:#666; padding: 5px 0px 5px 20px; margin: 0px; border-bottom: dashed 1px #efe4e4; }
+
+
+.SR ul { margin: 0px; padding: 0px;}
+.SR li { margin: 0px; padding: 2px 0px 3px 20px; list-style-type: none; background: url({TEMPLATE_PATH}img/CategLi.png) no-repeat left top; border-bottom: dashed 1px #efe4e4; font-size: 11px;}
+.SR li a { color:#cc3366; }
+.SR li a:visited { color:#cc3366; }
+.SR li a:hover { color:#cc0066;}
+
+/* Side Right Left +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.SRL { width: 230px; float: left; padding: 0px;}
+
+/* Side Right Right +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.SRR { width: 160px; float: right; padding: 0px;}
+
+
+/* Categories +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Categ {}
+
+.Categ ul { margin: 0px; padding: 0px;}
+.Categ ul li { margin: 0px; padding: 1px 0px 2px 20px; list-style-type: none; font-size: 11px; background: url({TEMPLATE_PATH}img/CategLi.png) no-repeat left top; border-bottom: dashed 1px #efe4e4; color:#999;}
+.Categ ul li a { color:#cc0066;}
+.Categ ul li a:visited { color:#cc0066;}
+.Categ ul li a:hover { color:#663366;}
+
+.Categ ul ul { margin: 2px 0px 0px 0px; padding: 0px; list-style-type: none; background: none; border-bottom: none;}
+.Categ ul li li { margin: 0px; padding: 1px 0px; list-style-type: none; background: none; border-bottom: none; font-size: 10px; }
+.Categ ul li li a { color:#ff6699;}
+.Categ ul li li a:visited { color:#ff6699;}
+.Categ ul li li a:hover { color:#663366;}
+
+/* Flickr RSS - PlugIn ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Flickr { margin-bottom: 10px;}
+.Flickr h3 { background: url({TEMPLATE_PATH}img/FlickrH3.gif) no-repeat left center; padding: 5px 0px 5px 20px; margin: 0px; color:#ff3366; letter-spacing: -1px; font-size: 14px; font-weight: bold;}
+.Flickr ul { padding: 10px 0px; margin: 0px;}
+.Flickr li { background: none; padding: 0px; margin: 0px 6px 0px 0px; list-style-type: none; display: inline; border-bottom: none;}
+.Flickr li a img { background: #fff; padding: 1px; border: solid 4px #d4e7f2; width: 53px; height: 53px; margin-bottom: 5px;}
+.Flickr li a:hover img { background: #fff; padding: 1px; border: solid 4px #ff3366; margin-bottom: 5px;}
+
+
+
+/* Extra ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.EBG { background: url({TEMPLATE_PATH}img/ExtraBkg.gif); width: 100%; float: left; border-top: solid 1px #ecdce3; border-bottom: solid 1px #ecdce3; padding: 20px 0px;}
+.Extra { width: 900px; margin: 0 auto;}
+
+/* Latest Comments  - PlugIn ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Cols { width: 280px; float: left;}
+.Cols h3 { font-size: 16px; margin: 0px; color:#333366; letter-spacing: -1px; padding-bottom: 10px; border-bottom: dashed 1px #beb4c1; }
+.Cols ul { margin: 0px; padding: 10px 0px 0px 0px;}
+.Cols li { display: block; color:#333366; margin: 0px; padding: 2px 0px 3px 15px; list-style-type: none; font-size: 11px; background: url({TEMPLATE_PATH}img/LatestCom.png) no-repeat left top; font-size: 11px; }
+.Cols li a { font-size: 11px; font-weight: normal; color:#cc3366;}
+
+
+/* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.FBG { background: #fff; width: 100%; float: left; padding: 10px 0px;}
+.Footer { width: 860px; margin: 0 auto; background: url({TEMPLATE_PATH}img/FooterIco.png) no-repeat left center; padding: 10px 0px 10px 40px;}
+.Footer p { font-size: 10px; color:#706c79; padding: 0px; margin: 0px; }
+.Footer a { color:#706c79; text-decoration: underline;}
+

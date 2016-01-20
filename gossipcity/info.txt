@@ -1,0 +1,4 @@
+Name: Gossip City 2
+Author: Design Disease<br /><i>Ported to s9y by Matthias 'YellowLed' Mees.</i>
+Date: 2008-03-14
+Require Serendipity: 1.1
