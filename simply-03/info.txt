@@ -1,0 +1,4 @@
+Name: simply-03
+Author: Nuvio, ported to s9y by YellowLed.
+Date: 2008-02-19
+Require Serendipity: 1.1
